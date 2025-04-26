@@ -25,23 +25,23 @@ The Histogram of gray scale image and color image is shown.
 
 
 ## Program:
-```python
-# Developed By: MOHAMMED IMTHIYAS.M
-# Register Number: 212222230083
-```
-# Grayscale image and Color image
-```
+
+### Developed By: MOHAMMED IMTHIYAS M
+### Register Number: 212222230083
+
+### Grayscale image and Color image
+```py
 import cv2
 import matplotlib.pyplot as plt
 gray_image = cv2.imread("immg.jpeg")
-color_image = cv2.imread("img.jpeg",-1)
+color_image = cv2.imread("img.jpeg")
 cv2.imshow("Gray Image",gray_image)
-cv2.imshow("Colour Image",color_image)
+cv2.imshow("Color Image",color_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-# Histogram of Grayscale image and color image
-```
+### Histogram of Grayscale image and color image
+```py
 import numpy as np
 import cv2
 Gray_image = cv2.imread("immg.jpeg")
@@ -66,8 +66,10 @@ plt.stem(color_hist)
 plt.show()
 cv2.waitKey(0)
 ```
-# Histogram equalization of Grayscale image
-```
+
+### Histogram equalization of Grayscale image
+```py
+
 import cv2
 gray_image = cv2.imread("immg.jpeg",0)
 cv2.imshow('Grey Scale Image',gray_image)
@@ -77,37 +79,36 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+
 ## Output:
 ### Input Grayscale Image and Color Image
+![image](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/1693fc25-c984-43a9-9f4a-91a068653c92)
 
-
-![311955834-33ef503c-2ac2-4837-b296-4116f8f803d9](https://github.com/imthiyas19/Histogram-of-an-images/assets/120353416/688a489b-8e7d-4d0f-958e-ff9e4fad85ec)
 
 
 
 
 
 ### Histogram of Grayscale Image and any channel of Color Image
+### Grayscale image
+![image](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/9e057e06-8622-4341-8adc-695d6cad2c52)
+
+
+![image](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/bf9d87f9-0b7e-4209-b562-72b380f1e774)
 
 
 
-![311955899-8af5eb58-65ab-46b2-845e-36be7f8cd901](https://github.com/imthiyas19/Histogram-of-an-images/assets/120353416/46176eb3-6139-4ff9-9a50-4058477d2205)
-
-
-![311955922-902d045a-a3dc-4d75-9f1c-2059cac663b8](https://github.com/imthiyas19/Histogram-of-an-images/assets/120353416/a71ceb71-408b-4a41-bb3a-3447f69ef45b)
 
 
 
+### Color image
 
+![Screenshot 2024-03-05 222450](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/4eacbe9d-62b2-4fd0-a69f-8be2e2ccc7c6)
+
+![Screenshot 2024-03-05 222459](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/a8bc4dcc-0ec1-4b7f-9174-4165a572dfe4)
 
 ### Histogram Equalization of Grayscale Image.
-
-
-
-
-![311955948-bf7aafa7-d9b9-4f86-9926-9ef6c9d15c78](https://github.com/imthiyas19/Histogram-of-an-images/assets/120353416/e5ccd492-5576-4087-a864-bb353a2e7c69)
-
-
+![image](https://github.com/LATHIKESHWARAN/Histogram-of-an-images/assets/119393556/42a52c2c-9896-4c81-a6d7-a60917b1b045)
 
 
 
